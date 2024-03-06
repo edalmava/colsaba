@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  body {
+    background: #a4bacc99;
+    color: #226daa;
+    font-family: Raleway, sans-serif;
+    margin: 1rem;
+  }
+
+  .ocultar {
+    display: none;
+  }
+
+  details {
+    border: 1px solid;
+    padding: 0 1rem;
+    background: white;
+  }
+
+  details + details {
+    border-top: none;
+  }
+
+  details[open] {padding-bottom: 1em;}
+
+  summary {
+    padding: 1rem 2em 1rem 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  li:hover {
+    background-color: aqua;
+  }
